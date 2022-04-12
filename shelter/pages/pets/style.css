@@ -1,0 +1,212 @@
+@font-face { 
+    font-family: "ArialRegular";
+    src: url("../../assets/fonts/ArialRegular.woff");
+    src: url("../fonts/ArialRegular/ArialRegular.eot?#iefix") format("embedded-opentype"),
+    url("../../assets/fonts/ArialRegular.woff") format("woff"),
+    url("../fonts/ArialRegular/ArialRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+  }
+  @font-face { 
+    font-family: "GeorgiaRegular";
+    src: url("../../assets/fonts/GeorgiaRegular.woff");
+    src: url("../fonts/GeorgiaRegular/GeorgiaRegular.eot?#iefix") format("embedded-opentype"),
+    url("../../assets/fonts/GeorgiaRegular.woff") format("woff"),
+    url("../fonts/GeorgiaRegular/GeorgiaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+  }
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth; 
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  body {
+    max-width: 1280px;
+    margin: 0 auto;
+    font-family: "ArialRegular";
+    font-size: 15px;
+    line-height: 160%;
+    color: #545454;
+ }
+.header {
+    height: 120px;
+    background-color: #FFFFFF;
+    padding: 30px 0px 30px 0px;
+    margin-bottom: 30px;
+   }
+   h1 {
+    font-family: "GeorgiaRegular";
+    font-size: 32px;
+    line-height: 110%;
+    color: #545454;
+    letter-spacing: 0.06em;
+  }
+  span {
+    font-family: "ArialRegular";
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #292929;
+  }
+  #logo{
+    text-decoration: none;
+  }
+  .header_container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .nav-item a {
+      color: #545454;
+    text-decoration: none;
+  }
+  .nav-item {
+    margin-right: 35px;
+    list-style-type: none;
+  }
+  .nav-item:last-child {
+    margin-right: 0;
+  }
+  #first {
+    color: black;
+    text-decoration: underline 3px #F1CDB3;
+  }
+
+
+  /*footer*/
+  footer {
+    height: 350px;
+    background-image: url(../../assets/images/footer-background.png);
+   font-family: "GeorgiaRegular";
+ font-size: 20px;
+ line-height: 115%;
+ color: #F1CDB3;
+  }
+  .foot_content {
+    display: flex;
+   justify-content: space-between;
+    padding-top: 40px;
+  }
+  .div2 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .div3 {
+   margin-top: 30px;
+   margin-bottom: 30px;
+ }
+ .h3 {
+   color: #FFFFFF;
+ }
+ .foot_content a {
+   color:  #F1CDB3;
+   text-decoration: none;
+ }
+  .textfooter {
+    margin-bottom: 60px;
+  }
+  section {
+      height: 1300px;
+      background-color: #F6F6F6;
+  }
+  .content {
+      padding-top: 80px;
+      padding-bottom: 0;
+      text-align: center;
+      margin: 0;
+ }
+ h3 {
+    font-family: "GeorgiaRegular";
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 130%;
+    letter-spacing: 0.06em;
+    color: #545454;
+    margin: 0;
+ }
+ .conteiner_img1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    }
+    .img {
+        background-color: #FAFAFA;
+        font-family: 'Georgia';
+font-size: 17px;
+line-height: 130%;
+letter-spacing: 0.06em;
+color: #292929;
+    }
+.conteiner_img1 button, .conteiner_img2 button {
+    width: 187px;
+    height: 52px;
+    border: 2px solid #F1CDB3;
+    border-radius: 100px;
+    background-color: #FAFAFA;
+    margin-bottom: 30px;
+}
+    .conteiner_img2 {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        }
+        .navigat {
+            margin-top: 45px;
+        }
+#one {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: inherit;
+    border: 2px solid #CDCDCD;
+}
+#two {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: inherit;
+    border: 2px solid #CDCDCD;
+}
+#three {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background: #F1CDB3;
+    border: 2px solid #F1CDB3;
+}
+#four {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    margin-right: 20px;
+    background-color: inherit;
+    border: 2px solid #F1CDB3;
+}
+#five {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: inherit;
+    border: 2px solid #F1CDB3;
+}
+.img:hover {
+    background-color: #FFFFFF;
+  cursor: grab;
+}
+    
